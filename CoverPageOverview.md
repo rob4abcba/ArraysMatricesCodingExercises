@@ -1,15 +1,15 @@
 
 # Topic 1 - Arrays/Matrix
 
-Arrays are a common data structure programming that takes advantage being able to address individual elements.  Within the system itself this means that the data is contiguous, or simply put each element within the array exists next to another in the order in which they occur within the array.  This is commonly known as the memory model of programming and is quite powerful.
+Arrays are a common data structure in programming that takes advantage being able to address individual elements.  Within the system itself, this means that the data is contiguous, or simply put, each element within the array exists next to another in the order in which they occur within the array.  This is commonly known as the memory model of programming and is quite powerful.
 
-So for those who want extra links and videos please refer to [Coding Interview University](https://github.com/jwasham/coding-interview-university#arrays) for this topic.  I will not be going over each topic within the reference provided but do not let that limit your learning on the material, the topic of arrays that I am presenting is for you to recognize some of the basic constructs of this data structure without over-complicating the problem and begin to build patterns.
+For those who want extra links and videos, please refer to [Coding Interview University](https://github.com/jwasham/coding-interview-university#arrays) for this topic.  I will not be going over each topic within the reference provided, but do not let that limit your learning on the material. The topic of arrays that I am presenting is for you to recognize some of the basic constructs of this data structure without over-complicating the problem. The goal is to begin to build patterns.
 
 # Iteration & Traversal
 
-- Traversal is achieved in many language using array subscripts with a number between the opening and closing representing the Nth - 1 element in the array (most languages are zero based indexing).
-- Arrays can have multiple dimensions.  Typical examples are given in a matrix form such that the matrix is accessed by a row and a column of the matrix where the row is Nth - 1 in size and the column can be the Mth column - 1, where M is the total number of columns and N is the total number of rows.  It is important to realize that the data in most languages in multi-dimensional arrays is still laid out in serial order.
-- Arrays typically hold the same type of data 
+- Traversal is achieved (in many languages) using array subscripts (aka indices) with a number between the opening and closing (brackets) representing the (Nth - 1) element in the array (most languages use zero-based indexing).
+- Arrays can have multiple dimensions.  Typical examples are given in a matrix form such that the matrix is accessed by a row and a column of the matrix where the row is (Nth - 1) in size and the column can be the (Mth column - 1), where M is the total number of columns and N is the total number of rows.  It is important to realize that the data in most languages in multi-dimensional arrays is still laid out in serial order.  (Think of it as 2D, but actually it is stored in 1D.)
+- Arrays typically hold the same type of data (unlike "lists" in Python, which can hold different data types in the same list.)
 - Create functions for some common iteration techniques involved in arrays.
 
 # Exercises
