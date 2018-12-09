@@ -13,7 +13,7 @@ For those who want extra links and videos, please refer to [Coding Interview Uni
 - Create functions for some common iteration techniques involved in arrays.
 
 # Exercises
-- Find the maximum, minimum, and sum of all integers in an array.
+- [Find the maximum, minimum, and sum of all integers in an array.](https://github.com/rob4abcba/ArraysMatricesCodingExercises/blob/master/MaxMinSum.md)
 - Given an array of integers print each element within the array.
 - Given an array of integers print each even index.
 - Given an array of integer print each odd index.
